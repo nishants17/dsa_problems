@@ -11,3 +11,5 @@ These are the following data structures that I have explored so far:
 
 These are the following problem solving patterns that I have explored so far:
 1. Two Pointers
+2. Sorting
+

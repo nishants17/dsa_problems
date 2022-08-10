@@ -6,6 +6,8 @@ I am looking to approach the Data Structures Problem Solving methodically by wor
 These are the following data structures that I have explored so far:
 1. Arrays
 2. Hash Maps
+3. Strings
+4. Linked Lists
 
 
 

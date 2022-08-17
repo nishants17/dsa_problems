@@ -38,7 +38,5 @@ ctr = 0
        
 while deck1 and deck2:
     ctr+=1
-    print("Deck1 is -----------------------", deck1)
-    print("Deck2 is ------------------------", deck2)
     cmp(deck1[0], deck2[0], deck1, deck2)
 print(ctr)

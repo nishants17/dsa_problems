@@ -1,3 +1,5 @@
+# Time Complexity : 0(1)
+# Space Complexity : 0(1)
 class Solution:
     def romanToInt(self, s: str) -> int:
         d = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
@@ -11,3 +13,5 @@ class Solution:
                 sum+=d[s[i]]
                 i = i+1
         return sum
+
+# Think of alternative approaches

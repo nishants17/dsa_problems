@@ -9,8 +9,8 @@ class Solution:
             return False
         
 # Approach 2: Using Hash Maps
-# Time Complexity: O(N*M)
-# Space Complexity: O(N*M)
+# Time Complexity: O(N+M)
+# Space Complexity: O(N+M)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         d = {}

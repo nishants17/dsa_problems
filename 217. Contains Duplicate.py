@@ -27,8 +27,6 @@ class Solution:
         while i < len(nums):
             if i+1 < len(nums) and nums[i] == nums[i+1]:
                 return True
-            elif i+1 > len(nums):
-                return False
             else:
                 i+=1
         return False

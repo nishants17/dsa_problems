@@ -5,7 +5,7 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         counter = {}
         for i in nums:
-            counter[i] = 1+ counter.get(i, 0)
+            counter[i] = 1 + counter.get(i, 0)
             if counter[i] > 1:
                 return True
         return False

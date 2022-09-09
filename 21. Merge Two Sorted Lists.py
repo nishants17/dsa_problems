@@ -9,18 +9,16 @@ class Solution:
         op_l = ListNode()
         #Create a tail pointer for the list object
         tail = op_l
-        if list1 is None:
-            return list2
-        elif list2 is None:
-            return list1
+
         while list1 and list2:
-            if list1.val <= list2.val:
+            if list1.val < list2.val:
                 tail.next = list1
                 list1 = list1.next
             else:
                 tail.next = list2
                 list2 = list2.next
-            op_l = op_l.next
+            tail = tail.next
+
         if list1:
             tail.next = list1
         elif list2:
